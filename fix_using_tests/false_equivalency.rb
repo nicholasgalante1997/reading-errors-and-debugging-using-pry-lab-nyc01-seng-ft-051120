@@ -1,7 +1,8 @@
 require 'pry'
 
 def get_user_input
-  gets.chomp
+  raw_input = gets.chomp
+  num = raw_input.to_i 
 end
 
 def prompt_user
